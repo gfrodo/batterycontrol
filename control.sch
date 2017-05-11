@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -19183,12 +19183,10 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C4" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="R18" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC3" library="v-reg" deviceset="LM317?*" device="MBSTT3"/>
-<part name="C5" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -19312,6 +19310,8 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <part name="X3" library="con-wago_250" deviceset="250-204" device=""/>
 <part name="X6" library="con-wago_250" deviceset="250-204" device=""/>
 <part name="X1" library="con-wago_250" deviceset="250-202/000-002" device=""/>
+<part name="JP1" library="jumper" deviceset="JP2E" device=""/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19337,12 +19337,10 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="C3" gate="G$1" x="76.2" y="210.82"/>
 <instance part="C4" gate="G$1" x="68.58" y="210.82"/>
 <instance part="GND8" gate="1" x="101.6" y="195.58"/>
-<instance part="GND9" gate="1" x="83.82" y="170.18"/>
 <instance part="R18" gate="G$1" x="99.06" y="241.3" rot="R90"/>
 <instance part="+3V1" gate="G$1" x="96.52" y="226.06"/>
 <instance part="+3V3" gate="G$1" x="99.06" y="251.46"/>
 <instance part="IC3" gate="G$1" x="43.18" y="256.54"/>
-<instance part="C5" gate="G$1" x="60.96" y="248.92"/>
 <instance part="C6" gate="G$1" x="25.4" y="248.92"/>
 <instance part="GND10" gate="1" x="25.4" y="233.68"/>
 <instance part="GND11" gate="1" x="43.18" y="223.52"/>
@@ -19447,14 +19445,14 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="Q12" gate="G$1" x="304.8" y="63.5" rot="MR0"/>
 <instance part="Q13" gate="G$1" x="304.8" y="53.34" rot="MR0"/>
 <instance part="GND21" gate="1" x="223.52" y="7.62"/>
-<instance part="Q14" gate="G$1" x="215.9" y="17.78"/>
-<instance part="Q15" gate="G$1" x="236.22" y="17.78"/>
+<instance part="Q14" gate="G$1" x="236.22" y="17.78"/>
+<instance part="Q15" gate="G$1" x="215.9" y="17.78"/>
 <instance part="Q16" gate="G$1" x="256.54" y="17.78"/>
 <instance part="R57" gate="G$1" x="256.54" y="33.02" rot="R90"/>
-<instance part="R58" gate="G$1" x="236.22" y="33.02" rot="R90"/>
-<instance part="R59" gate="G$1" x="215.9" y="33.02" rot="R90"/>
-<instance part="P+8" gate="1" x="215.9" y="43.18"/>
-<instance part="P+9" gate="1" x="236.22" y="43.18"/>
+<instance part="R58" gate="G$1" x="215.9" y="33.02" rot="R90"/>
+<instance part="R59" gate="G$1" x="236.22" y="33.02" rot="R90"/>
+<instance part="P+8" gate="1" x="236.22" y="43.18"/>
+<instance part="P+9" gate="1" x="215.9" y="43.18"/>
 <instance part="P+10" gate="1" x="256.54" y="43.18"/>
 <instance part="R60" gate="G$1" x="220.98" y="144.78"/>
 <instance part="IC1" gate="A" x="228.6" y="121.92" rot="R180"/>
@@ -19469,7 +19467,9 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="C15" gate="G$1" x="203.2" y="134.62" rot="R180"/>
 <instance part="X3" gate="G$1" x="248.92" y="60.96"/>
 <instance part="X6" gate="G$1" x="50.8" y="60.96" rot="R180"/>
-<instance part="X1" gate="G$1" x="-5.08" y="248.92"/>
+<instance part="X1" gate="G$1" x="0" y="243.84" rot="R180"/>
+<instance part="JP1" gate="1" x="172.72" y="187.96" rot="R270"/>
+<instance part="GND23" gate="1" x="170.18" y="182.88"/>
 </instances>
 <busses>
 </busses>
@@ -19655,7 +19655,6 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <junction x="101.6" y="198.12"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="60.96" y1="243.84" x2="60.96" y2="236.22" width="0.1524" layer="91"/>
 </segment>
@@ -19695,8 +19694,13 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="-"/>
-<wire x1="12.7" y1="231.14" x2="12.7" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="231.14" x2="12.7" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="X1" gate="G$1" pin="P1"/>
+<wire x1="12.7" y1="233.68" x2="12.7" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="233.68" x2="2.54" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="233.68" x2="2.54" y2="241.3" width="0.1524" layer="91"/>
+<junction x="12.7" y="233.68"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="S"/>
@@ -19752,15 +19756,6 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <junction x="264.16" y="12.7"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="S"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="243.84" y1="22.86" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="Q15" gate="G$1" pin="S"/>
-<wire x1="243.84" y1="12.7" x2="243.84" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="12.7" x2="236.22" y2="12.7" width="0.1524" layer="91"/>
-<junction x="243.84" y="12.7"/>
-</segment>
-<segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="243.84" y1="114.3" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
@@ -19786,17 +19781,30 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <junction x="210.82" y="114.3"/>
 </segment>
 <segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="Q14" gate="G$1" pin="S"/>
+<pinref part="U$4" gate="G$1" pin="S"/>
+<wire x1="243.84" y1="22.86" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="12.7" x2="236.22" y2="12.7" width="0.1524" layer="91"/>
+<junction x="243.84" y="12.7"/>
+<wire x1="243.84" y1="12.7" x2="243.84" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="U$6" gate="G$1" pin="S"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="223.52" y1="10.16" x2="223.52" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="Q14" gate="G$1" pin="S"/>
 <wire x1="223.52" y1="12.7" x2="223.52" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="12.7" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
 <junction x="223.52" y="12.7"/>
+<pinref part="Q15" gate="G$1" pin="S"/>
+<wire x1="223.52" y1="12.7" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="V-"/>
 <pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="1" pin="3"/>
+<pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -19827,8 +19835,13 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+12V"/>
-<wire x1="12.7" y1="269.24" x2="12.7" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="269.24" x2="12.7" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="+"/>
+<pinref part="X1" gate="G$1" pin="P2"/>
+<wire x1="12.7" y1="256.54" x2="12.7" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="246.38" x2="2.54" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="256.54" x2="12.7" y2="256.54" width="0.1524" layer="91"/>
+<junction x="12.7" y="256.54"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
@@ -19868,12 +19881,12 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R59" gate="G$1" pin="2"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
-<wire x1="215.9" y1="38.1" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="38.1" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R58" gate="G$1" pin="2"/>
 <pinref part="P+9" gate="1" pin="+12V"/>
-<wire x1="236.22" y1="38.1" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="38.1" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R57" gate="G$1" pin="2"/>
@@ -20009,7 +20022,6 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <wire x1="99.06" y1="248.92" x2="99.06" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="60.96" y1="251.46" x2="60.96" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="OUT"/>
@@ -20161,12 +20173,12 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 </net>
 <net name="N$31" class="0">
 <segment>
-<wire x1="172.72" y1="213.36" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="210.82" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="121.92" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="B" pin="+IN"/>
-<wire x1="172.72" y1="213.36" x2="157.48" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PB3"/>
+<pinref part="IC2" gate="G$1" pin="PB2"/>
+<wire x1="177.8" y1="210.82" x2="157.48" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -20291,9 +20303,9 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <label x="48.26" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PD2"/>
-<wire x1="157.48" y1="165.1" x2="162.56" y2="165.1" width="0.1524" layer="91"/>
-<label x="160.02" y="165.1" size="1.778" layer="95"/>
+<label x="96.52" y="160.02" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="PE0"/>
+<wire x1="96.52" y1="160.02" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -20427,10 +20439,10 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <wire x1="238.76" y1="185.42" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="119.38" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="+IN"/>
-<wire x1="238.76" y1="185.42" x2="175.26" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="185.42" x2="175.26" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PB2"/>
-<wire x1="175.26" y1="210.82" x2="157.48" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="185.42" x2="180.34" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="185.42" x2="180.34" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB3"/>
+<wire x1="180.34" y1="213.36" x2="157.48" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -20495,22 +20507,22 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R59" gate="G$1" pin="1"/>
 <pinref part="Q14" gate="G$1" pin="D"/>
-<wire x1="215.9" y1="27.94" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="G"/>
-<wire x1="215.9" y1="25.4" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
-<junction x="215.9" y="25.4"/>
+<pinref part="U$4" gate="G$1" pin="G"/>
+<wire x1="236.22" y1="25.4" x2="236.22" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="25.4" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="25.4" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
+<junction x="236.22" y="25.4"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
 <pinref part="R58" gate="G$1" pin="1"/>
 <pinref part="Q15" gate="G$1" pin="D"/>
-<wire x1="236.22" y1="27.94" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="G"/>
-<wire x1="236.22" y1="25.4" x2="236.22" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="25.4" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
-<junction x="236.22" y="25.4"/>
+<wire x1="215.9" y1="27.94" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="G"/>
+<wire x1="218.44" y1="25.4" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="25.4" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<junction x="215.9" y="25.4"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -20649,25 +20661,25 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <net name="DIS_B" class="0">
 <segment>
 <pinref part="Q14" gate="G$1" pin="G"/>
-<wire x1="210.82" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
-<label x="205.74" y="15.24" size="1.778" layer="95"/>
+<wire x1="231.14" y1="15.24" x2="226.06" y2="15.24" width="0.1524" layer="91"/>
+<label x="226.06" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PC7"/>
-<wire x1="157.48" y1="200.66" x2="162.56" y2="200.66" width="0.1524" layer="91"/>
-<label x="157.48" y="200.66" size="1.778" layer="95"/>
+<label x="160.02" y="185.42" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="PC1"/>
+<wire x1="157.48" y1="185.42" x2="167.64" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN_B1" class="0">
 <segment>
 <pinref part="Q15" gate="G$1" pin="G"/>
-<wire x1="231.14" y1="15.24" x2="226.06" y2="15.24" width="0.1524" layer="91"/>
-<label x="226.06" y="15.24" size="1.778" layer="95"/>
+<wire x1="210.82" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
+<label x="205.74" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PD7"/>
-<wire x1="157.48" y1="177.8" x2="165.1" y2="177.8" width="0.1524" layer="91"/>
-<label x="160.02" y="177.8" size="1.778" layer="95"/>
+<label x="160.02" y="193.04" size="1.778" layer="95"/>
+<wire x1="170.18" y1="193.04" x2="157.48" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PC4"/>
 </segment>
 </net>
 <net name="EN_B2" class="0">
@@ -20677,9 +20689,23 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <label x="246.38" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PC0"/>
-<wire x1="157.48" y1="182.88" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
-<label x="160.02" y="182.88" size="1.778" layer="95"/>
+<label x="160.02" y="195.58" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="PC5"/>
+<wire x1="170.18" y1="195.58" x2="157.48" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PC3"/>
+<pinref part="JP1" gate="1" pin="1"/>
+<wire x1="170.18" y1="190.5" x2="157.48" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PC2"/>
+<pinref part="JP1" gate="1" pin="2"/>
+<wire x1="157.48" y1="187.96" x2="170.18" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
