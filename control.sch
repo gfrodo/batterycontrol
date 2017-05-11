@@ -16531,12 +16531,12 @@ Low profile connectors, straight&lt;p&gt;
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="PB0"/>
-<wire x1="157.48" y1="205.74" x2="172.72" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="205.74" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="213.36" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="121.92" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="B" pin="+IN"/>
+<wire x1="172.72" y1="213.36" x2="157.48" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB3"/>
 </segment>
 </net>
 <net name="N$32" class="0">
