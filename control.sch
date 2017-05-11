@@ -19166,8 +19166,8 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <parts>
 <part name="R3" library="resistor-power" deviceset="R" device="HPS58" value="10R"/>
 <part name="R4" library="resistor-power" deviceset="R" device="HPS58" value="10R"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
 <part name="U$1" library="teile" deviceset="STL100NH3LL" device=""/>
 <part name="U$2" library="teile" deviceset="STL100NH3LL" device=""/>
 <part name="JP3" library="jumper" deviceset="JP2E" device=""/>
@@ -19178,27 +19178,26 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <part name="U$3" library="teile" deviceset="STL100NH3LL" device=""/>
 <part name="R16" library="resistor-power" deviceset="R" device="KH208-8R" value="4R7"/>
 <part name="IC2" library="atmel" deviceset="XMEGA16A4" device="A"/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0805K"/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0805K"/>
-<part name="C3" library="resistor" deviceset="C-EU" device="C0805K"/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C0805K"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C3" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R18" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R18" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC3" library="v-reg" deviceset="LM317?*" device="MBSTT3"/>
-<part name="C5" library="resistor" deviceset="C-EU" device="C0805K"/>
-<part name="C6" library="resistor" deviceset="C-EU" device="C0805K"/>
+<part name="C5" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C6" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R21" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R22" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R13" library="resistor" deviceset="R-EU_" device="M0805" value="330"/>
+<part name="R21" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R22" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C8" library="resistor" deviceset="C-EU" device="C0805K" value="100p"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -19207,48 +19206,48 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <part name="Q5" library="transistor-power" deviceset="TIP41C" device=""/>
 <part name="Q6" library="transistor-power" deviceset="TIP42C" device=""/>
 <part name="Q7" library="transistor-npn" deviceset="BC338*" device=""/>
-<part name="R24" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R25" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R26" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R27" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R23" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R28" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R29" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R30" library="resistor" deviceset="R-EU_" device="0207/2V"/>
+<part name="R24" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R25" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R26" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R27" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R23" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R28" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R29" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R30" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
 <part name="Q3" library="transistor-npn" deviceset="BC548*" device=""/>
 <part name="Q4" library="transistor-pnp" deviceset="BC557*" device="" technology="C"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="Q2" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="Q8" library="transistor-small-signal" deviceset="BSS123" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R31" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R31" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="P+6" library="supply1" deviceset="+12V" device=""/>
-<part name="R32" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R32" library="resistor" deviceset="R-EU_" device="M0805" value="330"/>
 <part name="IC5" library="linear" deviceset="LM358" device="N"/>
 <part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="resistor" deviceset="CPOL-EU" device="E2.5-7"/>
-<part name="C10" library="resistor" deviceset="CPOL-EU" device="E2.5-7"/>
-<part name="R33" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R34" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R35" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R36" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R37" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R38" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R39" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R40" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R41" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R42" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R43" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R44" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R45" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R46" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R47" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R48" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="C9" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="100µ"/>
+<part name="C10" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="100µ"/>
+<part name="R33" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R34" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R35" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R36" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R37" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R38" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R39" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R40" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R41" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R42" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R43" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R44" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R45" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R46" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R47" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R48" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SV2" library="con-ml" deviceset="ML6" device="6S"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
@@ -19260,8 +19259,8 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="R8" library="resistor-power" deviceset="R" device="HPS58" value="10R"/>
 <part name="R9" library="resistor-power" deviceset="R" device="HPS58" value="10R"/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
 <part name="U$4" library="teile" deviceset="STL100NH3LL" device=""/>
 <part name="U$5" library="teile" deviceset="STL100NH3LL" device=""/>
 <part name="JP7" library="jumper" deviceset="JP2E" device=""/>
@@ -19270,9 +19269,9 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <part name="JP8" library="jumper" deviceset="JP4E" device=""/>
 <part name="U$6" library="teile" deviceset="STL100NH3LL" device=""/>
 <part name="R12" library="resistor-power" deviceset="R" device="KH208-8R" value="4R7"/>
-<part name="R14" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R15" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R17" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="M0805" value="330"/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R17" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0805K" value="100p"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -19281,31 +19280,31 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <part name="Q9" library="transistor-power" deviceset="TIP41C" device=""/>
 <part name="Q10" library="transistor-power" deviceset="TIP42C" device=""/>
 <part name="Q11" library="transistor-npn" deviceset="BC338*" device=""/>
-<part name="R49" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R50" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R51" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R52" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R53" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R54" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R55" library="resistor" deviceset="R-EU_" device="0207/2V"/>
-<part name="R56" library="resistor" deviceset="R-EU_" device="0207/2V"/>
+<part name="R49" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R50" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R51" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R52" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R53" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R54" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R55" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
+<part name="R56" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
 <part name="Q12" library="transistor-npn" deviceset="BC548*" device=""/>
 <part name="Q13" library="transistor-pnp" deviceset="BC557*" device="" technology="C"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="Q14" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="Q15" library="transistor-small-signal" deviceset="BSS123" device=""/>
 <part name="Q16" library="transistor-small-signal" deviceset="BSS123" device=""/>
-<part name="R57" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R58" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R59" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R57" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R58" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
+<part name="R59" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="P+9" library="supply1" deviceset="+12V" device=""/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
-<part name="R60" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R60" library="resistor" deviceset="R-EU_" device="M0805" value="330"/>
 <part name="IC1" library="linear" deviceset="LM358" device="N"/>
 <part name="P+11" library="supply1" deviceset="+12V" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C14" library="resistor" deviceset="CPOL-EU" device="E2.5-7"/>
+<part name="C14" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="100µ"/>
 <part name="R61" library="resistor-power" deviceset="R" device="KH208-8R" value="4R7"/>
 <part name="P+12" library="supply1" deviceset="+12V" device=""/>
 <part name="D2" library="diode" deviceset="DIODE-" device="DO41-7.6"/>
@@ -19330,7 +19329,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="GND2" gate="1" x="66.04" y="7.62"/>
 <instance part="P+1" gate="1" x="12.7" y="271.78"/>
 <instance part="JP5" gate="G$1" x="22.86" y="58.42" rot="R90"/>
-<instance part="U$3" gate="G$1" x="22.86" y="33.02"/>
+<instance part="U$3" gate="G$1" x="22.86" y="27.94"/>
 <instance part="R16" gate="G$1" x="30.48" y="48.26" rot="R90"/>
 <instance part="IC2" gate="G$1" x="129.54" y="198.12"/>
 <instance part="C1" gate="G$1" x="91.44" y="210.82"/>
@@ -19340,8 +19339,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="GND8" gate="1" x="101.6" y="195.58"/>
 <instance part="GND9" gate="1" x="83.82" y="170.18"/>
 <instance part="R18" gate="G$1" x="99.06" y="241.3" rot="R90"/>
-<instance part="+3V1" gate="G$1" x="96.52" y="223.52"/>
-<instance part="+3V2" gate="G$1" x="96.52" y="223.52"/>
+<instance part="+3V1" gate="G$1" x="96.52" y="226.06"/>
 <instance part="+3V3" gate="G$1" x="99.06" y="251.46"/>
 <instance part="IC3" gate="G$1" x="43.18" y="256.54"/>
 <instance part="C5" gate="G$1" x="60.96" y="248.92"/>
@@ -19352,11 +19350,11 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="+3V4" gate="G$1" x="60.96" y="266.7"/>
 <instance part="P+3" gate="1" x="25.4" y="266.7"/>
 <instance part="R13" gate="G$1" x="12.7" y="132.08" rot="R270"/>
-<instance part="R21" gate="G$1" x="45.72" y="119.38" rot="R270"/>
+<instance part="R21" gate="G$1" x="45.72" y="114.3" rot="R270"/>
 <instance part="R22" gate="G$1" x="45.72" y="134.62" rot="R270"/>
 <instance part="C7" gate="G$1" x="63.5" y="129.54"/>
 <instance part="C8" gate="G$1" x="30.48" y="132.08" rot="R90"/>
-<instance part="GND13" gate="1" x="45.72" y="109.22"/>
+<instance part="GND13" gate="1" x="45.72" y="106.68"/>
 <instance part="GND15" gate="1" x="12.7" y="109.22"/>
 <instance part="GND16" gate="1" x="63.5" y="109.22"/>
 <instance part="Q5" gate="1" x="17.78" y="147.32" rot="R90"/>
@@ -19373,15 +19371,15 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="Q3" gate="G$1" x="106.68" y="63.5" rot="MR0"/>
 <instance part="Q4" gate="G$1" x="106.68" y="53.34" rot="MR0"/>
 <instance part="GND17" gate="1" x="25.4" y="7.62"/>
-<instance part="Q1" gate="G$1" x="17.78" y="22.86"/>
+<instance part="Q1" gate="G$1" x="17.78" y="17.78"/>
 <instance part="Q2" gate="G$1" x="38.1" y="17.78"/>
 <instance part="Q8" gate="G$1" x="58.42" y="17.78"/>
 <instance part="R1" gate="G$1" x="58.42" y="33.02" rot="R90"/>
 <instance part="R2" gate="G$1" x="38.1" y="33.02" rot="R90"/>
-<instance part="R31" gate="G$1" x="17.78" y="38.1" rot="R90"/>
-<instance part="P+4" gate="1" x="17.78" y="45.72"/>
+<instance part="R31" gate="G$1" x="17.78" y="33.02" rot="R90"/>
+<instance part="P+4" gate="1" x="17.78" y="43.18"/>
 <instance part="P+5" gate="1" x="38.1" y="43.18"/>
-<instance part="P+6" gate="1" x="58.42" y="40.64"/>
+<instance part="P+6" gate="1" x="58.42" y="43.18"/>
 <instance part="R32" gate="G$1" x="22.86" y="144.78"/>
 <instance part="IC5" gate="B" x="30.48" y="121.92" rot="R180"/>
 <instance part="IC5" gate="A" x="121.92" y="58.42" rot="R180"/>
@@ -19425,7 +19423,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="GND5" gate="1" x="243.84" y="7.62"/>
 <instance part="GND6" gate="1" x="264.16" y="7.62"/>
 <instance part="JP8" gate="G$1" x="220.98" y="58.42" rot="R90"/>
-<instance part="U$6" gate="G$1" x="220.98" y="33.02"/>
+<instance part="U$6" gate="G$1" x="220.98" y="27.94"/>
 <instance part="R12" gate="G$1" x="228.6" y="48.26" rot="R90"/>
 <instance part="R14" gate="G$1" x="210.82" y="132.08" rot="R270"/>
 <instance part="R15" gate="G$1" x="243.84" y="119.38" rot="R270"/>
@@ -19449,15 +19447,15 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="Q12" gate="G$1" x="304.8" y="63.5" rot="MR0"/>
 <instance part="Q13" gate="G$1" x="304.8" y="53.34" rot="MR0"/>
 <instance part="GND21" gate="1" x="223.52" y="7.62"/>
-<instance part="Q14" gate="G$1" x="215.9" y="22.86"/>
+<instance part="Q14" gate="G$1" x="215.9" y="17.78"/>
 <instance part="Q15" gate="G$1" x="236.22" y="17.78"/>
 <instance part="Q16" gate="G$1" x="256.54" y="17.78"/>
 <instance part="R57" gate="G$1" x="256.54" y="33.02" rot="R90"/>
 <instance part="R58" gate="G$1" x="236.22" y="33.02" rot="R90"/>
-<instance part="R59" gate="G$1" x="215.9" y="38.1" rot="R90"/>
-<instance part="P+8" gate="1" x="215.9" y="45.72"/>
+<instance part="R59" gate="G$1" x="215.9" y="33.02" rot="R90"/>
+<instance part="P+8" gate="1" x="215.9" y="43.18"/>
 <instance part="P+9" gate="1" x="236.22" y="43.18"/>
-<instance part="P+10" gate="1" x="256.54" y="40.64"/>
+<instance part="P+10" gate="1" x="256.54" y="43.18"/>
 <instance part="R60" gate="G$1" x="220.98" y="144.78"/>
 <instance part="IC1" gate="A" x="228.6" y="121.92" rot="R180"/>
 <instance part="IC1" gate="B" x="320.04" y="58.42" rot="R180"/>
@@ -19470,7 +19468,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <instance part="D2" gate="G$1" x="208.28" y="157.48" rot="R180"/>
 <instance part="C15" gate="G$1" x="203.2" y="134.62" rot="R180"/>
 <instance part="X3" gate="G$1" x="248.92" y="60.96"/>
-<instance part="X6" gate="G$1" x="45.72" y="60.96" rot="R180"/>
+<instance part="X6" gate="G$1" x="50.8" y="60.96" rot="R180"/>
 <instance part="X1" gate="G$1" x="-5.08" y="248.92"/>
 </instances>
 <busses>
@@ -19479,8 +19477,8 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="D"/>
-<wire x1="55.88" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="55.88" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="53.34" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="35.56" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
 <junction x="66.04" y="35.56"/>
@@ -19491,8 +19489,6 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <wire x1="104.14" y1="38.1" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
 <junction x="104.14" y="35.56"/>
 <pinref part="X6" gate="G$1" pin="P1"/>
-<wire x1="48.26" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="53.34" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC2" class="0">
@@ -19510,7 +19506,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <pinref part="IC5" gate="A" pin="-IN"/>
 <label x="63.5" y="73.66" size="1.778" layer="95"/>
 <pinref part="X6" gate="G$1" pin="P2"/>
-<wire x1="60.96" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R46" gate="G$1" pin="2"/>
@@ -19520,11 +19516,9 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 </net>
 <net name="ADC1" class="0">
 <segment>
-<wire x1="55.88" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="60.96" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="63.5" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="76.2" x2="45.72" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="76.2" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="76.2" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="76.2" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
 <junction x="58.42" y="76.2"/>
@@ -19536,13 +19530,11 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <wire x1="104.14" y1="81.28" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
 <junction x="104.14" y="81.28"/>
 <pinref part="R26" gate="G$1" pin="1"/>
-<junction x="45.72" y="76.2"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 <junction x="50.8" y="76.2"/>
 <label x="60.96" y="76.2" size="1.778" layer="95"/>
 <pinref part="X6" gate="G$1" pin="P3"/>
-<wire x1="48.26" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="63.5" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R45" gate="G$1" pin="2"/>
@@ -19552,14 +19544,10 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="45.72" y1="58.42" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="D"/>
 <pinref part="X6" gate="G$1" pin="P4"/>
-<wire x1="45.72" y1="50.8" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="68.58" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
-<junction x="45.72" y="50.8"/>
+<wire x1="53.34" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="68.58" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ADC3" class="0">
@@ -19684,7 +19672,6 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="45.72" y1="114.3" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -19714,11 +19701,11 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="U$3" gate="G$1" pin="S"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="25.4" y1="10.16" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="10.16" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="25.4" y1="17.78" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
-<junction x="25.4" y="17.78"/>
+<wire x1="25.4" y1="12.7" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
+<junction x="25.4" y="12.7"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="P" pin="V-"/>
@@ -19801,11 +19788,11 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="U$6" gate="G$1" pin="S"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="223.52" y1="10.16" x2="223.52" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="10.16" x2="223.52" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="Q14" gate="G$1" pin="S"/>
-<wire x1="223.52" y1="17.78" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="17.78" x2="215.9" y2="17.78" width="0.1524" layer="91"/>
-<junction x="223.52" y="17.78"/>
+<wire x1="223.52" y1="12.7" x2="223.52" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="12.7" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
+<junction x="223.52" y="12.7"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="V-"/>
@@ -19846,6 +19833,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
+<wire x1="17.78" y1="38.1" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -19855,6 +19843,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
+<wire x1="58.42" y1="40.64" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="P" pin="V+"/>
@@ -19879,6 +19868,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R59" gate="G$1" pin="2"/>
 <pinref part="P+8" gate="1" pin="+12V"/>
+<wire x1="215.9" y1="38.1" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R58" gate="G$1" pin="2"/>
@@ -19888,6 +19878,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R57" gate="G$1" pin="2"/>
 <pinref part="P+10" gate="1" pin="+12V"/>
+<wire x1="256.54" y1="40.64" x2="256.54" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="V+"/>
@@ -19898,7 +19889,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="U$3" gate="G$1" pin="D"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="38.1" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="33.02" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="43.18" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
@@ -20010,7 +20001,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <junction x="96.52" y="215.9"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <junction x="96.52" y="220.98"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="96.52" y1="220.98" x2="96.52" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
@@ -20161,7 +20152,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="129.54" x2="45.72" y2="127" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="127" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="127" x2="45.72" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <junction x="40.64" y="127"/>
 <junction x="45.72" y="127"/>
@@ -20240,11 +20231,11 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="17.78" y1="33.02" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="G"/>
-<wire x1="17.78" y1="30.48" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
-<junction x="17.78" y="30.48"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<junction x="17.78" y="25.4"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -20272,8 +20263,8 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <net name="DIS_A" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="12.7" y1="20.32" x2="5.08" y2="20.32" width="0.1524" layer="91"/>
-<label x="7.62" y="20.32" size="1.778" layer="95"/>
+<wire x1="12.7" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
+<label x="7.62" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PE3"/>
@@ -20315,9 +20306,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="D"/>
-<wire x1="254" y1="55.88" x2="256.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="55.88" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="55.88" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="53.34" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="35.56" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="35.56" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
 <junction x="264.16" y="35.56"/>
@@ -20327,23 +20316,16 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="38.1" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
 <junction x="302.26" y="35.56"/>
-<wire x1="256.54" y1="55.88" x2="256.54" y2="50.8" width="0.1524" layer="91"/>
-<junction x="256.54" y="55.88"/>
 <pinref part="X3" gate="G$1" pin="P4"/>
-<wire x1="256.54" y1="50.8" x2="246.38" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="50.8" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="243.84" y1="58.42" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="D"/>
 <pinref part="X3" gate="G$1" pin="P1"/>
-<wire x1="243.84" y1="53.34" x2="243.84" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="68.58" x2="236.22" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="68.58" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
-<junction x="243.84" y="53.34"/>
+<wire x1="243.84" y1="68.58" x2="243.84" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -20386,7 +20368,7 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="U$6" gate="G$1" pin="D"/>
 <pinref part="JP8" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="38.1" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="33.02" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="43.18" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="43.18" x2="228.6" y2="43.18" width="0.1524" layer="91"/>
@@ -20513,11 +20495,11 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <segment>
 <pinref part="R59" gate="G$1" pin="1"/>
 <pinref part="Q14" gate="G$1" pin="D"/>
-<wire x1="215.9" y1="33.02" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="27.94" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="G"/>
-<wire x1="215.9" y1="30.48" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="30.48" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
-<junction x="215.9" y="30.48"/>
+<wire x1="215.9" y1="25.4" x2="215.9" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
+<junction x="215.9" y="25.4"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -20544,12 +20526,9 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 </net>
 <net name="ADC5" class="0">
 <segment>
-<wire x1="254" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="60.96" x2="256.54" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="63.5" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="76.2" x2="248.92" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="76.2" x2="243.84" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="76.2" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="76.2" x2="279.4" y2="81.28" width="0.1524" layer="91"/>
 <junction x="256.54" y="76.2"/>
@@ -20561,13 +20540,11 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <wire x1="302.26" y1="81.28" x2="302.26" y2="78.74" width="0.1524" layer="91"/>
 <junction x="302.26" y="81.28"/>
 <pinref part="R51" gate="G$1" pin="1"/>
-<junction x="243.84" y="76.2"/>
 <pinref part="R52" gate="G$1" pin="1"/>
 <junction x="248.92" y="76.2"/>
 <label x="259.08" y="76.2" size="1.778" layer="95"/>
 <pinref part="X3" gate="G$1" pin="P2"/>
 <wire x1="256.54" y1="63.5" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
-<junction x="256.54" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R47" gate="G$1" pin="2"/>
@@ -20672,8 +20649,8 @@ Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf</description>
 <net name="DIS_B" class="0">
 <segment>
 <pinref part="Q14" gate="G$1" pin="G"/>
-<wire x1="210.82" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
-<label x="205.74" y="20.32" size="1.778" layer="95"/>
+<wire x1="210.82" y1="15.24" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
+<label x="205.74" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="PC7"/>
