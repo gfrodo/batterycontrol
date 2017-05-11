@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -14895,6 +14895,26 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="MTT3-A" package="SOT223">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MTT3-B" package="SOT223">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -20659,6 +20679,78 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-lumberg">
+<description>&lt;b&gt;Lumberg Connectors&lt;/b&gt;&lt;p&gt;
+include con-mfs.lbr - 2001.03.22&lt;br&gt;
+Jack connectors - 2005.11.23&lt;p&gt;
+http://www.lumberg.de&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="NEBJ21R">
+<description>&lt;b&gt;Netzgeräte-Einbaukupplung&lt;/b&gt; abgewinkelte Ausführung mit Öffner&lt;p&gt;
+Source: http://www.lumberg.com/Produkte/PDFs/NEB_J25R.pdf&lt;br&gt;
+MARUSHIN ELECTRIC MFG.CO. LTD - Draw No: MJ196P - NEB J 21 R.pdf</description>
+<wire x1="-5.9" y1="-0.1" x2="5.9" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="5.9" y1="-0.1" x2="5.9" y2="-9.4" width="0.2032" layer="21"/>
+<wire x1="5.9" y1="-9.4" x2="-5.9" y2="-9.4" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="-9.4" x2="-5.9" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="0" x2="0.9" y2="0" width="0.2032" layer="21" curve="-126.869898"/>
+<wire x1="3.75" y1="0.75" x2="4.5" y2="0.25" width="0.2032" layer="21" curve="-112.619865"/>
+<wire x1="3.75" y1="0.75" x2="2.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="0.25" x2="4.5" y2="0" width="0.2032" layer="21"/>
+<pad name="1" x="-3" y="-9.2" drill="1.3" diameter="1.905" shape="long" rot="R90"/>
+<pad name="2" x="1.6" y="-7" drill="1.3" diameter="1.905" shape="long" rot="R90"/>
+<pad name="3" x="4.2" y="-6.2" drill="1.3" diameter="1.905" shape="long" rot="R90"/>
+<text x="-0.985" y="-11.43" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.705" y="-2.675" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIN45323">
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.778" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="0.762" x2="2.54" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="2.286" x2="-1.016" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.524" x2="-0.508" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.524" x2="-0.762" y2="2.286" width="0.254" layer="94"/>
+<text x="-2.54" y="4.064" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.096" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.54" y1="-3.048" x2="2.794" y2="-2.032" layer="94"/>
+<pin name="1" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NEBJ21R" prefix="X">
+<description>&lt;b&gt;Netzgeräte-Einbaukupplung&lt;/b&gt; abgewinkelte Ausführung mit Öffner&lt;p&gt;
+Source: http://www.lumberg.com/Produkte/PDFs/NEB_J21R.pdf&lt;br&gt;
+MARUSHIN ELECTRIC MFG.CO. LTD - Draw No: MJ196P - NEB J 21 R.pdf</description>
+<gates>
+<gate name="G$1" symbol="DIN45323" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NEBJ21R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="NEB/J 21 R" constant="no"/>
+<attribute name="OC_FARNELL" value="1217039" constant="no"/>
+<attribute name="OC_NEWARK" value="97K6460" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20691,7 +20783,7 @@ Source: www.kingbright.com</description>
 <part name="R18" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC3" library="v-reg" deviceset="LM317?*" device="MBSTT3"/>
+<part name="IC3" library="v-reg" deviceset="LM317?*" device="MTT3-A" value="LM317MTT3-A"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -20826,6 +20918,7 @@ Source: www.kingbright.com</description>
 <part name="R62" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
 <part name="R63" library="resistor" deviceset="R-EU_" device="M0805" value="33k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="X4" library="con-lumberg" deviceset="NEBJ21R" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20993,6 +21086,7 @@ Source: www.kingbright.com</description>
 <instance part="R62" gate="G$1" x="165.1" y="165.1"/>
 <instance part="R63" gate="G$1" x="165.1" y="167.64"/>
 <instance part="GND9" gate="1" x="187.96" y="154.94"/>
+<instance part="X4" gate="G$1" x="12.7" y="215.9"/>
 </instances>
 <busses>
 </busses>
@@ -21224,6 +21318,10 @@ Source: www.kingbright.com</description>
 <wire x1="12.7" y1="233.68" x2="2.54" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="233.68" x2="2.54" y2="241.3" width="0.1524" layer="91"/>
 <junction x="12.7" y="233.68"/>
+<wire x1="2.54" y1="233.68" x2="2.54" y2="218.44" width="0.1524" layer="91"/>
+<junction x="2.54" y="233.68"/>
+<pinref part="X4" gate="G$1" pin="3"/>
+<wire x1="2.54" y1="218.44" x2="7.62" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="S"/>
@@ -21383,6 +21481,11 @@ Source: www.kingbright.com</description>
 <wire x1="2.54" y1="246.38" x2="2.54" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="256.54" x2="12.7" y2="256.54" width="0.1524" layer="91"/>
 <junction x="12.7" y="256.54"/>
+<wire x1="2.54" y1="256.54" x2="-7.62" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="256.54" x2="-7.62" y2="213.36" width="0.1524" layer="91"/>
+<junction x="2.54" y="256.54"/>
+<pinref part="X4" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="213.36" x2="7.62" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
