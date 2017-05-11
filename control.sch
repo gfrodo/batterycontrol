@@ -21322,6 +21322,10 @@ MARUSHIN ELECTRIC MFG.CO. LTD - Draw No: MJ196P - NEB J 21 R.pdf</description>
 <junction x="2.54" y="233.68"/>
 <pinref part="X4" gate="G$1" pin="3"/>
 <wire x1="2.54" y1="218.44" x2="7.62" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="X4" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="215.9" x2="2.54" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="215.9" x2="2.54" y2="218.44" width="0.1524" layer="91"/>
+<junction x="2.54" y="218.44"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="S"/>
