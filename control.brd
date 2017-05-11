@@ -3421,7 +3421,7 @@ design rules under a new name.</description>
 <element name="C8" library="resistor" package="C0805K" value="100p" x="35.56" y="19.05" rot="MR270"/>
 <element name="Q5" library="transistor-power" package="TO220AV" value="TIP41C" x="48.26" y="8.89" rot="R270"/>
 <element name="Q6" library="transistor-power" package="TO220AV" value="TIP42C" x="48.26" y="21.59" rot="R270"/>
-<element name="Q7" library="transistor-npn" package="TO92-EBC" value="BC338" x="42.545" y="17.78" rot="R270"/>
+<element name="Q7" library="transistor-npn" package="TO92-EBC" value="BC548" x="42.545" y="17.78" rot="R270"/>
 <element name="R24" library="resistor" package="0207/2V" value="1" x="12.7" y="12.7" rot="R90"/>
 <element name="R25" library="resistor" package="0207/2V" value="1" x="13.97" y="16.51" rot="R180"/>
 <element name="R26" library="resistor" package="0207/2V" value="1" x="15.24" y="12.7" rot="R90"/>
@@ -3499,7 +3499,7 @@ design rules under a new name.</description>
 <element name="C13" library="resistor" package="C0805K" value="100p" x="36.195" y="59.69" rot="MR90"/>
 <element name="Q9" library="transistor-power" package="TO220AV" value="TIP41C" x="48.26" y="59.69" rot="R270"/>
 <element name="Q10" library="transistor-power" package="TO220AV" value="TIP42C" x="48.26" y="72.39" rot="R270"/>
-<element name="Q11" library="transistor-npn" package="TO92-EBC" value="BC338" x="42.545" y="68.58" rot="R270"/>
+<element name="Q11" library="transistor-npn" package="TO92-EBC" value="BC548" x="42.545" y="68.58" rot="R270"/>
 <element name="R49" library="resistor" package="0207/2V" value="1" x="12.7" y="63.5" rot="R270"/>
 <element name="R50" library="resistor" package="0207/2V" value="1" x="15.24" y="63.5" rot="R270"/>
 <element name="R51" library="resistor" package="0207/2V" value="1" x="13.97" y="67.31" rot="R180"/>

@@ -15077,27 +15077,6 @@ grid 2.54 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BC338*" prefix="Q">
-<description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO92-EBC">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="-16"/>
-<technology name="-25"/>
-<technology name="-40"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BC548*" prefix="Q">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
@@ -20800,7 +20779,7 @@ MARUSHIN ELECTRIC MFG.CO. LTD - Draw No: MJ196P - NEB J 21 R.pdf</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="Q5" library="transistor-power" deviceset="TIP41C" device=""/>
 <part name="Q6" library="transistor-power" deviceset="TIP42C" device=""/>
-<part name="Q7" library="transistor-npn" deviceset="BC338*" device=""/>
+<part name="Q7" library="transistor-npn" deviceset="BC548*" device=""/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
 <part name="R25" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
 <part name="R26" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
@@ -20874,7 +20853,7 @@ MARUSHIN ELECTRIC MFG.CO. LTD - Draw No: MJ196P - NEB J 21 R.pdf</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="Q9" library="transistor-power" deviceset="TIP41C" device=""/>
 <part name="Q10" library="transistor-power" deviceset="TIP42C" device=""/>
-<part name="Q11" library="transistor-npn" deviceset="BC338*" device=""/>
+<part name="Q11" library="transistor-npn" deviceset="BC548*" device=""/>
 <part name="R49" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
 <part name="R50" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
 <part name="R51" library="resistor" deviceset="R-EU_" device="0207/2V" value="1"/>
